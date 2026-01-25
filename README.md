@@ -19,15 +19,15 @@ A desktop application to find and manage duplicate files using JavaFX with a mod
 ## 📸 Screenshots
 
 ### Main Interface
-![Main Interface](screenshots/main-interface.png)
+![Main Interface]([screenshots/main-interface.png](https://github.com/abbumillion/duplicateFileFinder/blob/master/screenshots/mainUI.png))
 *Main application window showing duplicate groups*
 
 ### Scanning Progress
-![Scanning](screenshots/scanning-progress.png)
+![Scanning]([screenshots/scanning-progress.png](https://github.com/abbumillion/duplicateFileFinder/blob/master/screenshots/scanning.png))
 *Real-time progress during file scanning*
 
 ### Results View
-![Results](screenshots/results-view.png)
+![Results]([screenshots/results-view.png](https://github.com/abbumillion/duplicateFileFinder/blob/master/screenshots/results.png))
 *Detailed view of duplicate files with previews*
 
 ## 🚀 Getting Started
