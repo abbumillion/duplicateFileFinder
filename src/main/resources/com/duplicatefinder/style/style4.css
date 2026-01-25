@@ -1,5 +1,46 @@
 * {
     -fx-font-size: 12.5px;
-    -fx-base : #010101;
+    -fx-base : #fff;
+        -fx-font-family: "Segoe UI", "San Francisco", "Arial";
 }
 
+/* Button Styling */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #3498db 0%, #2980b9 100%);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.3), 5, 0.5, 0, 1);
+    -fx-min-width: 100px;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #2980b9 0%, #2573a7 100%);
+    -fx-effect: dropshadow(gaussian, rgba(41, 128, 185, 0.4), 8, 0.5, 0, 2);
+}
+
+.button:pressed {
+    -fx-background-color: #21618c;
+    -fx-translate-y: 1px;
+}
+
+/* Special Action Buttons */
+#scanButton {
+    -fx-background-color: linear-gradient(to bottom, #2ecc71 0%, #27ae60 100%);
+}
+
+#scanButton:hover {
+    -fx-background-color: linear-gradient(to bottom, #27ae60 0%, #219955 100%);
+}
+
+#deleteButton {
+    -fx-background-color: linear-gradient(to bottom, #e74c3c 0%, #c0392b 100%);
+}
+
+#deleteButton:hover {
+    -fx-background-color: linear-gradient(to bottom, #c0392b 0%, #a93226 100%);
+}
