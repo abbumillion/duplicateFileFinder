@@ -19,15 +19,15 @@ A desktop application to find and manage duplicate files using JavaFX with a mod
 ## 📸 Screenshots
 
 ### Main Interface
-![Main Interface]([./screenshots/mainUI.png))
+![Main UI](screenshots/mainUI.png)
 *Main application window showing duplicate groups*
 
 ### Scanning Progress
-![Scanning]([./screenshots/scanning.png))
+![Scanning](screenshots/mainUI.png)
 *Real-time progress during file scanning*
 
 ### Results View
-![Results]([./screenshots/results.png))
+![Results](screenshots/mainUI.png)
 *Detailed view of duplicate files with previews*
 
 ## 🚀 Getting Started
